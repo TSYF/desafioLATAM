@@ -1,3 +1,30 @@
+:root {
+    box-sizing: border-box;
+    --viajes: #17A3B8;
+}
+
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.bg-viajes {
+    background-color: var(--viajes);
+}
+
+hr {
+    border: solid .2rem var(--viajes);
+    color: var(--viajes);
+    width: 95%;
+}
+
+i {
+    width: min-content;
+    margin: 0 auto;
+}
+
 .header {
     background-image: url();
     position: relative;
@@ -10,4 +37,17 @@
 .logo {
     height: 7vh;
     width: min-content;
+}
+
+.carousel {
+    z-index: -1;
+}
+
+.presentacion__carta {
+    min-width: 300px;
+    width: 27%;
+    max-width: 36rem;
+}
+.presentacion__parrafo {
+    width: 99%;
 }
