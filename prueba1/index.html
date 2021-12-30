@@ -17,7 +17,7 @@
 </head>
 <body>
     <header class="header">
-        <nav class="navbar navbar-dark navbar-expand-md sticky-top px-sm-2 px-md-5 bg-dark d-flex align-items-center">
+        <nav class="navbar navbar-dark navbar-expand-md position-absolute w-100 top-0 px-sm-2 px-md-5 bg-transparent d-flex align-items-center">
             <div class="container-fluid">
                 <!-- Navigation bar icon/brand -->
                 <a href="#" class="navbar-brand">
@@ -30,7 +30,7 @@
                 </button>
                 <!-- Navigation menu -->
                 <div class="collapse navbar-collapse navbar-nav" id="navbarToggleExternalContent">
-                    <div class="bg-dark ms-auto rounded-bottom">
+                    <div class="bg-transparent ms-auto rounded-bottom">
                         <a class="nav-link p-2 d-md-inline-block active" href="#">Inicio</a>
                         <a class="nav-link p-2 d-md-inline-block px-md-2 my-md-0" href="#">Quienes Somos</a>
                         <a class="nav-link p-2 d-md-inline-block px-md-2 my-md-0" href="#">Destacados</a>
@@ -39,6 +39,26 @@
                 </div>
             </div>
         </nav>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </header>
 
     <!-- Bootstrap 5.1.3 -->
