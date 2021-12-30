@@ -1,0 +1,9 @@
+.header {
+    background-image: url();
+    position: relative;
+}
+
+.logo {
+    height: 7vh;
+    width: min-content;
+}
