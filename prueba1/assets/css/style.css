@@ -1,17 +1,25 @@
-:root {
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+:root {
     --viajes: #17A3B8;
+    font-size: 22px;
 }
 
 body {
     background-color: black;
-    padding: 0;
-    margin: 0;
     color: #fff;
 }
 
 .bg-viajes {
     background-color: var(--viajes);
+}
+
+.w-90 {
+    width: 90%;
 }
 
 hr {
@@ -50,4 +58,15 @@ i {
 }
 .presentacion__parrafo {
     width: 99%;
+}
+
+.card {
+    min-width: 280px;
+    width: 20%;
+    max-width: 32rem;
+
+    min-height: 25rem;
+}
+.card-img-top {
+    height: 50%;   
 }
