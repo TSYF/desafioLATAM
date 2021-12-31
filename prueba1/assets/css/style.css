@@ -79,3 +79,9 @@ i {
 .footer__text {
     width: fit-content;
 }
+.footer__text:hover {
+    color: inherit;
+}
+.footer__icons>i {
+    line-height: inherit;
+}
