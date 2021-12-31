@@ -18,18 +18,23 @@ body {
     background-color: var(--viajes);
 }
 
-.w-90 {
-    width: 90%;
-}
-
 hr {
     border: solid .2rem var(--viajes);
     color: var(--viajes);
     width: 95%;
 }
 
+.w-90 {
+    width: 90%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 i {
-    width: min-content;
+    width: fit-content;
     margin: 0 auto;
 }
 
@@ -69,4 +74,8 @@ i {
 }
 .card-img-top {
     height: 60%;   
+}
+
+.footer__text {
+    width: fit-content;
 }
