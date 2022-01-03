@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap 5.1.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Google Fonts -->
-    
+    <!-- Google Fonts: El Messiri (400, 700), Playball (400) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&family=Playball&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/c285f9db4f.js" crossorigin="anonymous"></script>
+    <!-- jQuery 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- Local Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Viajes Chile</title>
@@ -17,7 +21,7 @@
 <body>
     <header class="header">
         <!-- Navbar -->
-        <nav id="inicio" class="navbar navbar-dark navbar-expand-md position-absolute w-100 top-0 px-sm-2 px-md-5 bg-transparent d-flex align-items-center">
+        <nav id="inicio" class="navbar navbar-dark navbar-expand-lg fixed-top w-100 top-0 px-sm-2 px-md-5 d-flex align-items-center">
             <div class="container-fluid">
                 <!-- Navigation bar icon/brand -->
                 <a href="#" class="navbar-brand">
@@ -31,10 +35,10 @@
                 <!-- Navigation menu -->
                 <div class="collapse navbar-collapse navbar-nav" id="navbarToggleExternalContent">
                     <div class="bg-transparent ms-auto rounded-bottom">
-                        <a class="nav-link p-2 d-md-inline-block active" href="#inicio">Inicio</a>
-                        <a class="nav-link p-2 d-md-inline-block px-md-2 my-md-0" href="#presentacion">Quienes Somos</a>
-                        <a class="nav-link p-2 d-md-inline-block px-md-2 my-md-0" href="#destacados">Destacados</a>
-                        <a class="nav-link p-2 d-md-inline-block" href="#contacto">Contacto</a>
+                        <a class="nav-link p-2 d-lg-inline-block active" href="#inicio">Inicio</a>
+                        <a class="nav-link p-2 d-lg-inline-block px-md-2 my-md-0" href="#presentacion">Quienes Somos</a>
+                        <a class="nav-link p-2 d-lg-inline-block px-md-2 my-md-0" href="#destacados">Destacados</a>
+                        <a class="nav-link p-2 d-lg-inline-block" href="#contacto">Contacto</a>
                     </div>
                 </div>
             </div>
@@ -70,15 +74,15 @@
             <!-- Parrafos presentacion -->
             <div class="presentacion w-90 mx-auto row gap-4 justify-content-center mb-5">
                 <div class="presentacion__carta col-sm p-0">
-                    <div class="bg-viajes py-1 d-flex"><i class="fs-1 fas fa-plane"></i></div>
+                    <div class="bg-viajes mb-2 py-1 d-flex"><i class="fs-1 fas fa-plane"></i></div>
                     <p class="presentacion__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aspernatur voluptatem, quae veniam ullam consequuntur, expedita nulla quasi beatae alias facere, earum non! Eaque velit atque dignissimos similique nobis officiis illum, autem at error sapiente magni sint! Esse saepe cumque fuga, qui hic impedit iste culpa quam eligendi deleniti nostrum veritatis facere officia soluta exercitationem doloribus cum numquam, nesciunt vero sunt unde id eius minus veniam. Ullam voluptatibus quidem suscipit quisquam sed earum placeat quam laborum voluptatem! Dignissimos dolores voluptates consectetur? Assumenda voluptatum provident sunt pariatur, sit quos quia, aliquid mollitia natus animi dicta repellendus eligendi vel saepe, velit quidem.</p>
                 </div>
                 <div class="presentacion__carta col-sm p-0">
                     <p class="presentacion__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aspernatur voluptatem, quae veniam ullam consequuntur, expedita nulla quasi beatae alias facere, earum non! Eaque velit atque dignissimos similique nobis officiis illum, autem at error sapiente magni sint! Esse saepe cumque fuga, qui hic impedit iste culpa quam eligendi deleniti nostrum veritatis facere officia soluta exercitationem doloribus cum numquam, nesciunt vero sunt unde id eius minus veniam. Ullam voluptatibus quidem suscipit quisquam sed earum placeat quam laborum voluptatem! Dignissimos dolores voluptates consectetur? Assumenda voluptatum provident sunt pariatur, sit quos quia, aliquid mollitia natus animi dicta repellendus eligendi vel saepe, velit quidem.</p>
-                    <div class="bg-viajes py-1 d-flex"><i class="fs-1 fas fa-mountain"></i></div>
+                    <div class="bg-viajes mt-2 py-1 d-flex"><i class="fs-1 fas fa-mountain"></i></div>
                 </div>
                 <div class="presentacion__carta col-sm p-0">
-                    <div class="bg-viajes py-1 d-flex"><i class="fs-1 fas fa-route"></i></div>
+                    <div class="bg-viajes mb-2 py-1 d-flex"><i class="fs-1 fas fa-route"></i></div>
                     <p class="presentacion__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aspernatur voluptatem, quae veniam ullam consequuntur, expedita nulla quasi beatae alias facere, earum non! Eaque velit atque dignissimos similique nobis officiis illum, autem at error sapiente magni sint! Esse saepe cumque fuga, qui hic impedit iste culpa quam eligendi deleniti nostrum veritatis facere officia soluta exercitationem doloribus cum numquam, nesciunt vero sunt unde id eius minus veniam. Ullam voluptatibus quidem suscipit quisquam sed earum placeat quam laborum voluptatem! Dignissimos dolores voluptates consectetur? Assumenda voluptatum provident sunt pariatur, sit quos quia, aliquid mollitia natus animi dicta repellendus eligendi vel saepe, velit quidem.</p>
                 </div>
             </div>
@@ -89,8 +93,8 @@
             <h2 id="destacados" class="text-center">Destacados</h2>
             <hr class="rounded-pill mx-auto">
             <!-- Cartas -->
-            <div class="cards row justify-content-center gap-4 mx-auto w-90">
-                <div class="card col col-md-3 bg-viajes p-0">
+            <div class="cards row justify-content-center gap-4 mx-auto">
+                <div class="card col bg-viajes p-0">
                     <img src="assets/img/card1.jpg" alt="Destacados" class="card-img-top w-100">
                     <div class="card-header">
                         <h3 class="card-title">Lorem ipsum dolor sit amet</h3>
@@ -99,7 +103,7 @@
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a natus perferendis, fugit officiis repellendus maxime incidunt asperiores cum explicabo.</p>
                     </div>
                 </div>
-                <div class="card col col-md-3 bg-viajes p-0">
+                <div class="card col bg-viajes p-0">
                     <img src="assets/img/card2.jpg" alt="Destacados" class="card-img-top w-100">
                     <div class="card-header">
                         <h3 class="card-title">Consectetur adipisicing elit</h3>
@@ -108,7 +112,7 @@
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem possimus vero dolorem enim? Nihil, praesentium. Magni velit illo nesciunt ducimus!</p>
                     </div>
                 </div>
-                <div class="card col col-md-3 bg-viajes p-0">
+                <div class="card col bg-viajes p-0">
                     <img src="assets/img/card3.jpg" alt="Destacados" class="card-img-top w-100">
                     <div class="card-header">
                         <h3 class="card-title">Sed do eiusmod tempor incididunt ut labore</h3>
@@ -117,7 +121,7 @@
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci perspiciatis molestias fugit iure consectetur natus sed? Nam alias sit aspernatur.</p>
                     </div>
                 </div>
-                <div class="card col col-md-3 bg-viajes p-0">
+                <div class="card col bg-viajes p-0">
                     <img src="assets/img/card4.jpg" alt="Destacados" class="card-img-top w-100">
                     <div class="card-header">
                         <h3 class="card-title">Ut enim ad minim veniam</h3>

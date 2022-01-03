@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'El Messiri', 'Times New Roman', Times, serif;
 }
 
 :root {
     --viajes: #17A3B8;
+    --gradient: linear-gradient(
+        transparent,
+        #17A3B8,
+        #007989);
     font-size: 22px;
     scroll-behavior: smooth;
 }
@@ -40,12 +45,17 @@ i {
 }
 
 .header {
-    background-image: url();
     position: relative;
 }
 .navbar {
-    top: 0;
     z-index: 1;
+    transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+}
+
+.navbar-brand {
+    font-family: 'Playball', 'Courier New', Courier, monospace;
 }
 
 .logo {
@@ -66,10 +76,14 @@ i {
     width: 99%;
 }
 
+.cards {
+    width: fit-content;
+}
+
 .card {
     min-width: 280px;
     width: 20%;
-    max-width: 32rem;
+    max-width: 13rem;
 
     min-height: 25rem;
 }
@@ -81,6 +95,7 @@ i {
 
 .footer__text {
     width: fit-content;
+    font-weight: 700;
 }
 a:hover {
     color: inherit;
