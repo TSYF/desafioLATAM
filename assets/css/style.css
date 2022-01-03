@@ -54,7 +54,7 @@ i {
 }
 
 .carousel {
-    z-index: -1;
+    z-index: 0;
 }
 
 .presentacion__carta {
