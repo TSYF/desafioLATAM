@@ -7,6 +7,7 @@
 :root {
     --viajes: #17A3B8;
     font-size: 22px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -73,13 +74,15 @@ i {
     min-height: 25rem;
 }
 .card-img-top {
-    height: 60%;   
+    min-height: 200px;   
+    height: 20vh;   
+    max-height: 4rem;   
 }
 
 .footer__text {
     width: fit-content;
 }
-.footer__text:hover {
+a:hover {
     color: inherit;
 }
 .footer__icons>i {
